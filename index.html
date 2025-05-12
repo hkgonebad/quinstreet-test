@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Enter to win a 3rd generation Nest Learning Thermostat worth $249">
+  <meta name="theme-color" content="#ECF8FB">
+
+  <!-- Preload stuff -->
+  <link rel="preconnect" href="https://formsws-hilstaging-com-0adj9wt8gzyq.runscope.net">
+  <link rel="preload" as="image" href="/img/logo.png">
+  <link rel="preload" as="image" href="/img/bg.png">
+
+  <title>QuinStreet Test | Modernize - Home Empowerment</title>
+</head>
+
+<body class="min-h-screen transition-colors duration-5000 bg-[url('/img/bg.png')] bg-repeat bg-[length:500px] font-[Montserrat] text-[#545253]">
+  <div class="mx-auto">
+    <!-- Header -->
+    <header class="bg-[#444444] flex justify-center items-center h-[80px]">
+      <a href="https://hkgonebad.github.io/quinstreet-test/" target="_blank">
+        <img src="/img/logo.png" alt="Modernize Home Empowerment" class="h-[40px]" />
+      </a>
+    </header>
+
+    <!-- Main -->
+    <main class="flex flex-col items-center px-4">
+      <!-- Form Box -->
+      <div class="bg-white w-[670px] max-w-full shadow-[0px_4px_20px_rgba(0,0,0,0.1)] my-[40px] mx-auto">
+        <!-- Form Header -->
+        <div class="text-white text-center py-6 px-5 bg-[#565656]">
+          <h1 class="font-bold text-lg md:text-xl leading-tight mb-2">Enter to win a 3rd generation Nest</h1>
+          <h2 class="font-normal text-sm md:text-lg leading-tight">Learning Thermostat worth $249.</h2>
+        </div>
+
+        <!-- Form -->
+        <div class="px-5 md:px-[55px] py-10">
+          <form id="contestForm" class="space-y-6">
+            <div>
+              <input required type="text" id="name" placeholder="Name" class="w-full border border-[#d8d8d8] h-[50px] px-4 text-base text-[#333] rounded-[4px] bg-white shadow-[inset_0px_1px_2px_rgba(0,0,0,0.5)]" />
+            </div>
+
+            <div class="grid grid-cols-3 gap-4 max-md:grid-cols-1 max-md:gap-3">
+              <input type="text" id="city" placeholder="City" class="border border-[#d8d8d8] h-[50px] px-4 text-base text-[#333] rounded-[4px] col-span-2 bg-white shadow-[inset_0px_1px_2px_rgba(0,0,0,0.5)]" />
+              <input type="text" id="state" placeholder="State" class="border border-[#d8d8d8] h-[50px] px-4 text-base text-[#333] rounded-[4px] col-span-1 bg-white shadow-[inset_0px_1px_2px_rgba(0,0,0,0.5)]" />
+            </div>
+
+            <div>
+              <input type="tel" id="phone" placeholder="Phone Number" class="w-full border border-[#d8d8d8] h-[50px] px-4 text-base text-[#333] rounded-[4px] bg-white shadow-[inset_0px_1px_2px_rgba(0,0,0,0.5)]" required />
+            </div>
+
+            <div>
+              <input type="email" id="email" placeholder="Email Address" class="w-full border border-[#d8d8d8] h-[50px] px-4 text-base text-[#333] rounded-[4px] bg-white shadow-[inset_0px_1px_2px_rgba(0,0,0,0.5)]" required />
+            </div>
+
+            <div class="flex justify-center">
+              <button type="submit" class="bg-[#f79621] hover:bg-[#f79621]/80 transition-colors duration-300 text-white font-semibold rounded-full w-[334px] h-[48px] text-base uppercase tracking-wider max-md:w-full cursor-pointer">
+                ENTER TO WIN
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Ad place -->
+      <div class="w-[404px] max-w-full border-2 border-t-0 border-[#95c11f] mt-10 relative h-[235px] max-md:w-[calc(100%-32px)]  max-md:mx-4 max-md:h-auto mb-20 pt-5 pb-4 px-4">
+        <!-- this was the challenge, not that but somewhat in Tailwind. took almost 15 min now -->
+        <div class="text-center absolute -top-2 left-1/2 -translate-x-1/2   w-full mx-auto before:content-[''] before:absolute before:top-1/2 before:right-0 before:w-[20%] before:h-[2px] before:bg-[#95c11f] after:content-[''] after:absolute after:top-1/2 after:left-0 after:w-[20%] after:h-[2px] after:bg-[#95c11f]">
+
+          <p class="px-5 font-semibold text-[15px] leading-[15px] text-[#545253] whitespace-nowrap relative ">EVEN MORE SAVINGS</p>
+
+        </div>
+
+        <div class="p-5 max-md:p-4 bg-[rgba(255,255,255,0.75)]">
+          <div class="text-[#95c11f] text-xs font-semibold uppercase mb-2 leading-[14px]">ADVERTORIAL</div>
+          <h4 class="text-[#545253] text-xl font-light leading-6 mb-4 w-[323px] max-md:w-full">Tricks Homeowners Use to Eliminate Bills</h4>
+
+          <p class="text-sm leading-[17px] font-light text-[#545253] w-[323px] max-md:w-full">
+            Surging energy bills, unpredictable weather patterns and dissatisfaction with utility companies have homeowners scrambling...
+          </p>
+
+          <!-- google link as per your instructions -->
+          <a href="https://www.google.com" target="_blank" class="text-[#6EB7C2] text-sm font-semibold uppercase">READ MORE</a>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Main script -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

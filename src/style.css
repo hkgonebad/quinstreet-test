@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", system-ui, sans-serif;
+  --color-light-blue: #ecf8fb;
+  --color-light-gray: #efefef;
+  --color-orange: #f79621;
+  --color-error-red: #d50303;
+  --color-text-gray: #545253;
+  --color-modern-green: #95c11f;
+  --shadow-card: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility */
+.duration-5000 {
+  transition-duration: 5000ms;
+}
+
+/* Placeholder text colors */
+::placeholder {
+  color: #999999;
+  font-family: var(--font-sans);
+  font-size: 16px;
+}
+
+/* Mobile optimizations */
+@media (max-width: 767px) {
+  input::placeholder {
+    font-size: 14px;
+  }
+
+  input {
+    font-size: 16px; /* Prevents iOS zoom on focus */
+  }
+}
+
+/* Focus states for accessibility */
+input:focus {
+  outline: 2px solid #f79621;
+  outline-offset: 1px;
+}
