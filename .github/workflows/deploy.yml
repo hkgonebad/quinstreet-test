@@ -32,6 +32,12 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
 
+      - name: Print working directory
+        run: pwd
+
+      - name: List all files
+        run: ls -alR
+
       - name: Install dependencies
         run: npm ci
 
