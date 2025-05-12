@@ -1,4 +1,4 @@
-# Nest Thermostat Landing Page
+# QuinStreet Test | Modernize - Home Empowerment
 
 A responsive landing page for a thermostat giveaway, built for a frontend developer assessment.
 
@@ -12,7 +12,7 @@ During development, I encountered and solved several interesting challenges:
 
 - Implementing a smooth background transition that works consistently across browsers
 - Creating a phone input mask that handles both keyboard and paste events correctly (AI helped here)
-- Optimizing form validation to provide helpful feedback without sacrificing performance 
+- Optimizing form validation to provide helpful feedback without sacrificing performance
 - Handling form submission timeouts gracefully while providing visual feedback
 
 ## Bug Fixes
